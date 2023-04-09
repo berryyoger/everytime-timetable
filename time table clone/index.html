@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Every Time Time Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:gray;
+                display: flex;
+                flex-direction: column;
+                width: 474px;
+                height: 910px;
+                align-items: center;">
+    <header style="background-color: #ffffff;
+                    width: 100%;
+                    height: 80px;
+                    position: relative;
+                    display: flex;
+                    flex-direction: row;"> <!--헤더 시작-->
+        <hgroup style="width: 200px;"> 
+            <p style="color: #ba4635; margin: 0; margin-top: 20px; margin-left: 22px; font-size: 10pt;">2023년 1학기</p>
+            <p style="margin-top: 0px; margin-left: 22px; font-size: 16pt;"><strong>시간표</strong></p>
+        </hgroup>
+        <div style="display: flex;
+                    flex-direction: row;
+                    margin-top: 40px;
+                    margin-left: 110px;">
+            <div><img src="/icons/add.jpg" alt="시간표 추가"
+                    style="width: 14pt;
+                            height: 20px;
+                            cursor: pointer;" onclick="location.href='/header/addFriendTT.html'"></div>
+            <div><img src="/icons/option.jpg" alt="설정"
+                    style="width: 16pt;
+                            height: 21px;
+                            margin-left: 28px;
+                            cursor: pointer;" onclick="location.href='/header/option.html'"></div>
+            <div><img src="/icons/threeLine.jpg" alt="더보기"
+                    style="width: 18pt;
+                            height:26px;
+                            margin-left: 28px;
+                            margin-top: -3px;
+                            cursor: pointer;" onclick="location.href='/header/lookMore.html'"></div>
+        </div>
+        
+    </header> <!--헤더 끝-->
+
+    <div class="scroll" 
+        style="overflow: auto;
+                width: 474px;
+                height: 814px;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: #ffffff;
+                position: relative;
+                overflow-x: hidden;
+                "> <!--바디 시작-->
+        <div style="width: 452px;
+                    height: 406px;
+                    overflow: hidden;
+                    border: 1px solid;
+                    border-color: rgba(139, 139, 139, 0.237);
+                    border-radius: 10px;
+                    margin-left: 11px;"> <!--테이블 시작-->
+            <table BORDER="1px" cellspacing="0" ALIGN="center"
+                    style="border-color: rgba(230, 230, 230, 0.5);
+                            background-color: #ffffff;
+                            letter-spacing: -0.5px;
+                            line-height: 12px;">
+            <tr ALIGN="center" style="font-size: 4px;">
+                <td WIDTH="18" HEIGHT="18"><!-- 빈칸 --></td> 
+                <td WIDTH="82">월</td>
+                <td WIDTH="82">화</td>
+                <td WIDTH="82">수</td>
+                <td WIDTH="82">목</td>
+                <td WIDTH="82">금</td>
+            </tr>
+    
+            <tr ALIGN="center">
+                <td style="font-size: 10px;" VALIGN="top" ALIGN="right" HEIGHT="44">9</td>
+    
+                <td><!-- 빈칸 --></td> 
+    
+                <td><!-- 빈칸 --></td> 
+    
+                <td VALIGN="top" ALIGN="left" rowspan="2" style="color: aliceblue;background-color: #90cec3;">
+                    <strong style="font-size: 9pt;">기초수학</strong><br>
+                    <p style="font-size: 8pt;  margin: 0px; margin-top: 1px;">배양관(N동)(11-506)</p>
+                </td>
+    
+                <td><!-- 빈칸 --></td> 
+    
+                <td><!-- 빈칸 --></td> 
+            </tr>
+    
+            <tr ALIGN="center">
+                <td style="font-size: 10px;"  VALIGN="top" ALIGN="right" HEIGHT="44">10</td>
+    
+                <td VALIGN="top" ALIGN="left" rowspan="3" style="color: aliceblue; background-color: #e18b7c;">
+                    <strong style="font-size: 9pt;">스마트논리회로</strong><br>
+                    <p style="font-size: 8pt;  margin: 0px; margin-top: 1px;">호천관(L동)(26-701)</p>
+                </td>
+    
+                <td VALIGN="top" ALIGN="left" rowspan="3" style="color: aliceblue; background-color: #adc87a;">
+                    <strong style="font-size: 9pt;">C프로그래밍</strong><br>
+                    <p style="font-size: 8pt;  margin: 0px; margin-top: 1px;">호천관(L동)(26-305)</p>
+                </td>
+    
+                <td><!-- 빈칸 --></td> 
+    
+                <td VALIGN="top" ALIGN="left" rowspan="3"
+                    style="color: aliceblue; background-color: #9a86db;">
+                    <strong style="font-size: 9pt;">아두이노활용실습</strong><br>
+                    <p style="font-size: 8pt;  margin: 0px; margin-top: 1px;">배양관(N동)(11-211)</p>
+                </td>
+            </tr>
+    
+            <tr ALIGN="center">
+                <td style="font-size: 10px;"  VALIGN="top" ALIGN="right" HEIGHT="44">11</td>
+    
+                <td><!-- 빈칸 --></td> 
+    
+                <td><!-- 빈칸 --></td> 
+            </tr>
+    
+            <tr ALIGN="center">
+                <td style="font-size: 10px;"  VALIGN="top" ALIGN="right" HEIGHT="44">12</td>
+    
+                <td><!-- 빈칸 --></td> 
+    
+                <td><!-- 빈칸 --></td> 
+            </tr>
+    
+            <tr ALIGN="center">
+                <td style="font-size: 10px;"  VALIGN="top" ALIGN="right" HEIGHT="44">1</td>
+    
+                <td><!-- 빈칸 --></td> 
+    
+                <td><!-- 빈칸 --></td> 
+    
+                <td VALIGN="top" ALIGN="left" style="color: aliceblue; background-color: #84a3e3; ">
+                    <strong style="font-size: 9pt;">IT진로탐색</strong><br>
+                    <p style="font-size: 8pt; margin: 0px;  margin: 0px; margin-top: 1px;">호천관(L동)(26-305)</p>
+                </td>
+    
+                <td><!-- 빈칸 --></td> 
+    
+                <td><!-- 빈칸 --></td> 
+            </tr>
+    
+            <tr ALIGN="center">
+                <td style="font-size: 10px;" VALIGN="top" ALIGN="right" HEIGHT="44">2</td>
+    
+                <td VALIGN="top" ALIGN="left" rowspan="3" style="color: aliceblue; background-color: #e5c475;">
+                    <strong style="font-size: 9pt;">회로이론기초</strong><br>
+                    <p style="font-size: 8pt;  margin: 0px; margin-top: 1px;">호천관(L동)(26-701)</p>
+                </td>
+    
+                <td><!-- 빈칸 --></td>
+    
+                <td VALIGN="top" ALIGN="left" rowspan="3" style="color: aliceblue; background-color: #efad73;">
+                    <strong style="font-size: 9pt;">전기전자기초실습</strong><br>
+                    <p style="font-size: 8pt;  margin: 0px; margin-top: 1px;">호천관(L동)(26-405)</p>
+                </td>
+    
+                <td><!-- 빈칸 --></td>
+    
+                <td VALIGN="top" ALIGN="left" rowspan="3" style="color: aliceblue; background-color: #8ac78e;">
+                    <strong style="font-size: 9pt;">인터넷활용실습</strong><br>
+                    <p style="font-size: 8pt;  margin: 0px; margin-top: 1px;">배양관(N동)(11-211)</p>
+                </td>
+            </tr>
+    
+            <tr ALIGN="center">
+                <td style="font-size: 10px;" VALIGN="top" ALIGN="right" HEIGHT="44">3</td>
+    
+                <td><!-- 빈칸 --></td>
+    
+                <td><!-- 빈칸 --></td>
+            </tr>
+            <tr ALIGN="center">
+                <td style="font-size: 10px;" VALIGN="top" ALIGN="right" HEIGHT="44">3</td>
+    
+                <td><!-- 빈칸 --></td>
+    
+                <td><!-- 빈칸 --></td>
+            </tr>
+            </table>
+        </div> <!--테이블 끝-->
+        <div style="overflow: hidden;
+                    width: 452px;
+                    height: 460px;
+                    margin-left: 11px;
+                    margin-top: 11px;
+                    border: 1px solid;
+                    border-color: rgba(139, 139, 139, 0.237);
+                    border-radius: 10px;
+                    flex-direction: column;
+                    background-color: #ffffff;
+                    position: relative;"> <!--친구 시간표 시작-->
+
+            <div> <!--제목, 친구추가 버튼 그룹-->
+                <p style="margin-left: 22px; margin-top: 30px; display: flex; flex-direction: row;"><strong style="font-size: 18px; ">친구 시간표</strong>
+                    <img src="/icons/add.jpg" alt="친구 시간표 추가"
+                    style="width: 14pt;
+                            height: 20px;
+                            margin-left: 295px;
+                            cursor: pointer;" onclick="location.href='/body/addFriendTT.html'">
+                </p>
+                
+            </div>
+            <div style="margin-left: 22px; margin-top: 20px; cursor: pointer; font-size: 16px;" onclick="location.href='/friendTTs/friend1TT.html'">
+                <p>친구 1</p>
+            </div>
+            <div style="margin-left: 22px; margin-top: 20px; cursor: pointer; font-size: 16px" onclick="location.href='/friendTTs/friend2TT.html'">
+                <p>친구 2</p>
+            </div>
+            <div style="margin-left: 22px; margin-top: 20px; cursor: pointer; font-size: 16px" onclick="location.href='/friendTTs/friend3TT.html'">
+                <p>친구 3</p>
+            </div>
+            <div style="margin-left: 22px; margin-top: 20px; cursor: pointer; font-size: 16px" onclick="location.href='/friendTTs/friend4TT.html'">
+                <p>친구 4</p>
+            </div>
+            <div style="margin-left: 22px; margin-top: 20px; cursor: pointer; font-size: 16px" onclick="location.href='/friendTTs/friend5TT.html'">
+                <p>친구 5</p>
+            </div>
+            <div style="margin-left: 22px; margin-top: 20px; cursor: pointer; font-size: 16px" onclick="location.href='/friendTTs/friend6TT.html'">
+                <p>친구 6</p>
+            </div>
+            <div style="margin-left: 22px; margin-top: 20px; cursor: pointer; font-size: 16px" onclick="location.href='/friendTTs/friend7TT.html'">
+                <p>친구 7</p>
+            </div>
+            <div style="margin-left: 22px; margin-top: 20px; cursor: pointer; font-size: 16px" onclick="location.href='/friendTTs/friend8TT.html'">
+                <p>친구 8</p>
+            </div>
+            <div style="margin-left: 22px; margin-top: 20px; cursor: pointer; font-size: 16px" onclick="location.href='/friendTTs/friend9TT.html'">
+                <p>친구 9</p>
+            </div>
+
+        </div> <!--친구 시간표 끝-->
+
+        <div style="overflow: hidden;
+                    width: 452px;
+                    height: 140px;
+                    margin-left: 11px;
+                    margin-top: 11px;
+                    border: 1px solid;
+                    border-color: rgba(139, 139, 139, 0.237);
+                    border-radius: 10px;
+                    flex-direction: column;
+                    background-color: #ffffff;
+                    position: relative;"> <!--학점계산기 시작-->
+            <p style="margin-left: 22px; margin-top: 26px;"><strong style="font-size: 18px; ">학점계산기</strong>
+                <img src="/icons/edit.jpg" alt="친구 시간표 추가"
+                    style="width: 26pt;
+                            height: 34px;
+                            margin-left: 285px;
+                            cursor: pointer;" onclick="location.href='/body/calculate.html'">
+            </p>
+            <div style="margin-left: 22px; margin-top: 20px;  font-size: 16px">
+                <p>평균 학점 <strong style="color: #b13b2c;">0</strong> /4.5
+                    &nbsp;&nbsp; 취득 학점 <strong style="color: #b13b2c;">0</strong> / 4.5</p>
+            </div>
+        </div> <!--학점계산기 끝-->
+    </div> <!--바디 끝-->
+
+
+    <footer style="width: 474px;
+                    height: 80px; 
+                    background-color: #ffffff;
+                    position: relative;
+                    bottom: 0;
+                    border: 1px solid;
+                    border-color: rgba(139, 139, 139, 0.237);
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;"> <!--하단 메뉴 시작-->
+    <div style="width: 20%; height: 100%;
+                cursor: pointer;" onclick="location.href='/footer/home.html'">
+        <img src="icons/home.jpg" alt="홈" style="width: 100%; height: 100%;">
+    </div>
+    <div style="width: 20%; height: 100%;">
+        <img src="icons/timeTable.jpg" alt="시간표" style="width: 100%; height: 100%;">
+    </div>
+    <div style="width: 20%; height: 100%;
+                cursor: pointer;" onclick="location.href='/footer/board.html'">
+        <img src="icons/board.jpg" alt="게시판" style="width: 90%; height: 100%;">
+    </div>
+    <div style="width: 20%; height: 100%;
+                cursor: pointer;" onclick="location.href='/footer/alert.html'">
+        <img src="icons/alert.jpg" alt="알람" style="width: 100%; height: 100%;">
+    </div>
+    <div style="width: 20%; height: 100%;
+                cursor: pointer;" onclick="location.href='/footer/campusPick.html'">
+        <img src="icons/campuspick.jpg" alt="캠퍼스픽" style="width: 100%; height: 100%;">
+    </div>
+    </footer> <!--하단 메뉴 끝-->
+</body>
+</html>
